@@ -4,7 +4,7 @@ $firstName = 'Petra';
 $lastName = 'Luckova';
 
 $fullName = $firstName . ' ' . $lastName;
-
+$lengh = strlen($fullName);
 ?>
 
 <!DOCTYPE html>
@@ -16,7 +16,8 @@ $fullName = $firstName . ' ' . $lastName;
 </head>
 <body>
     
-<p>$fullName</p>
+<p><?= $fullName ?></p>
 
+<p><?= $lengh ?></p>
 </body>
 </html>

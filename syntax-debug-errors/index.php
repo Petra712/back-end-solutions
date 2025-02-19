@@ -1,8 +1,8 @@
 
 <?php
 	$text = 'Test 123...';
-	$_text = 'Test 456';
-	$_text3 = 'test';
+	$text2 = 'Test 456';
+	$text3 = 'test';
 	$first = 'Building castles in the sky and in the sand';
 	$animal = 'Platypus';
 ?>
@@ -24,13 +24,14 @@
 	<ul>
         <li>Debug this page so the script runs without error</li>
         <li>Print all the variables in a unordered list below:</li>
-        <li><?="$text"?></li>
-        <li><?="$_text"?></li>
-        <li><?="$_text3"?></li>
-        <li><?="$first"?></li>
-        <li><?="$animal"?></li>
-        
     </ul>  
 
+	<ul>
+		<li><?= $text ?></li>
+        <li><?= $text2 ?></li>
+        <li><?= $text3 ?></li>
+        <li><?= $first ?></li>
+        <li><?= $animal ?></li> 
+	</ul>
 </body>
 </html>
